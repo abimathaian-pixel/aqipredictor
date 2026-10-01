@@ -1,0 +1,134 @@
+[
+  {
+    "id": "station-shivajinagar",
+    "name": "Shivajinagar",
+    "area": "Central Pune (COEP / Shimla Office)",
+    "latitude": 18.5314,
+    "longitude": 73.8446,
+    "operator": "SAFAR-IITM / MPCB",
+    "station_type": "Urban Traffic & Residential",
+    "description": "Located in central Pune near major traffic junctions and universities. Heavy vehicular flow.",
+    "baseline_aqi": 145
+  },
+  {
+    "id": "station-hadapsar",
+    "name": "Hadapsar",
+    "area": "Eastern Pune (Magarpatta / Industrial Area)",
+    "latitude": 18.5089,
+    "longitude": 73.9260,
+    "operator": "SAFAR-IITM / MPCB",
+    "station_type": "Commercial & Semi-Industrial",
+    "description": "Eastern corridor near IT parks, residential townships, and industrial estates with heavy freight traffic.",
+    "baseline_aqi": 162
+  },
+  {
+    "id": "station-katraj",
+    "name": "Katraj",
+    "area": "Southern Pune (Katraj Lake / Mumbai-Bangalore Bypass)",
+    "latitude": 18.4575,
+    "longitude": 73.8508,
+    "operator": "MPCB",
+    "station_type": "Suburban Highway Junction",
+    "description": "Southern gateway to Pune surrounded by hilly terrain and the national highway bypass.",
+    "baseline_aqi": 138
+  },
+  {
+    "id": "station-lohegaon",
+    "name": "Lohegaon - Viman Nagar",
+    "area": "Northeast Pune (Airport / IT Corridor)",
+    "latitude": 18.5822,
+    "longitude": 73.9197,
+    "operator": "SAFAR-IITM",
+    "station_type": "Aviation & Commercial",
+    "description": "Near Pune International Airport and Viman Nagar residential commercial centers.",
+    "baseline_aqi": 128
+  },
+  {
+    "id": "station-karve-road",
+    "name": "Karve Road",
+    "area": "Western Pune (Kothrud / Deccan)",
+    "latitude": 18.5074,
+    "longitude": 73.8175,
+    "operator": "MPCB",
+    "station_type": "Dense Commercial & Residential",
+    "description": "High-density western arterial corridor with shopping areas and public transport.",
+    "baseline_aqi": 150
+  },
+  {
+    "id": "station-bhosari",
+    "name": "Bhosari MIDC",
+    "area": "Northern Pune (Pimpri-Chinchwad Industrial Belt)",
+    "latitude": 18.6279,
+    "longitude": 73.8471,
+    "operator": "MPCB / CPCB",
+    "station_type": "Heavy Industrial Belt",
+    "description": "Automotive and engineering industrial manufacturing cluster in PCMC.",
+    "baseline_aqi": 185
+  },
+  {
+    "id": "station-alandi",
+    "name": "Alandi",
+    "area": "North Pune (Indrayani Basin)",
+    "latitude": 18.6756,
+    "longitude": 73.8967,
+    "operator": "SAFAR-IITM",
+    "station_type": "Peri-urban & Pilgrimage",
+    "description": "Peri-urban pilgrimage town with seasonal tourist spikes and agricultural background.",
+    "baseline_aqi": 115
+  },
+  {
+    "id": "station-pashan",
+    "name": "Pashan - IISER",
+    "area": "Northwestern Pune (IITM / IISER Campus)",
+    "latitude": 18.5362,
+    "longitude": 73.7928,
+    "operator": "IITM / SAFAR",
+    "station_type": "Institutional & Ecological Green Belt",
+    "description": "Scientific research campus with lush tree cover and lower direct traffic emissions.",
+    "baseline_aqi": 82
+  },
+  {
+    "id": "station-wakad",
+    "name": "Wakad",
+    "area": "Northwest Pune (Hinjewadi IT Junction)",
+    "latitude": 18.5987,
+    "longitude": 73.7689,
+    "operator": "MPCB",
+    "station_type": "High-growth IT Suburban Corridor",
+    "description": "Rapidly growing corridor near Hinjewadi Infotech Park with significant construction and commute traffic.",
+    "baseline_aqi": 155
+  },
+  {
+    "id": "station-nigdi",
+    "name": "Nigdi - Pradhikaran",
+    "area": "North PCMC (Township Sector)",
+    "latitude": 18.6529,
+    "longitude": 73.7744,
+    "operator": "SAFAR-IITM",
+    "station_type": "Planned Residential Sector",
+    "description": "Planned residential authority zone with good tree cover and moderate traffic.",
+    "baseline_aqi": 98
+  },
+  {
+    "id": "station-swargate",
+    "name": "Swargate",
+    "area": "South-Central Pune (Major Transit Hub)",
+    "latitude": 18.5018,
+    "longitude": 73.8586,
+    "operator": "MPCB",
+    "station_type": "High-density Transit Hub",
+    "description": "Major intercity bus terminal and metro hub with high stop-and-go diesel vehicular emissions.",
+    "baseline_aqi": 172
+  },
+  {
+    "id": "station-yerwada",
+    "name": "Yerwada",
+    "area": "East-Central Pune (Ahmednagar Road)",
+    "latitude": 18.5529,
+    "longitude": 73.8833,
+    "operator": "MPCB",
+    "station_type": "Commercial & Arterial Highway",
+    "description": "Major arterial connection between Pune and Ahmednagar highway with mixed commercial activity.",
+    "baseline_aqi": 142
+  }
+]

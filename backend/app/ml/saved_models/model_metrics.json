@@ -1,0 +1,338 @@
+{
+  "model_name": "Random Forest Regressor (100 Trees)",
+  "baseline_model_name": "Linear Regression Baseline",
+  "mae": 9.61,
+  "rmse": 13.22,
+  "r2": 0.757,
+  "baseline_mae": 7.01,
+  "baseline_rmse": 9.7,
+  "baseline_r2": 0.869,
+  "residual_std": 11.0,
+  "features_used": [
+    "Previous Day AQI (t-1)",
+    "AQI 2 Days Ago (t-2)",
+    "AQI 3 Days Ago (t-3)",
+    "3-Day Rolling Average AQI",
+    "7-Day Rolling Average AQI",
+    "PM2.5 Concentration",
+    "PM10 Concentration",
+    "NO2 Concentration",
+    "SO2 Concentration",
+    "CO Concentration",
+    "Ozone (O3) Concentration",
+    "Ambient Temperature (\u00b0C)",
+    "Relative Humidity (%)",
+    "Wind Speed (km/h)",
+    "Day of the Week",
+    "Calendar Month",
+    "Seasonal Climate Index"
+  ],
+  "feature_importances": [
+    {
+      "feature": "pm10",
+      "label": "PM10 Concentration",
+      "importance": 0.7547
+    },
+    {
+      "feature": "aqi_rolling_7",
+      "label": "7-Day Rolling Average AQI",
+      "importance": 0.1285
+    },
+    {
+      "feature": "aqi_rolling_3",
+      "label": "3-Day Rolling Average AQI",
+      "importance": 0.0468
+    },
+    {
+      "feature": "no2",
+      "label": "NO2 Concentration",
+      "importance": 0.0162
+    },
+    {
+      "feature": "pm25",
+      "label": "PM2.5 Concentration",
+      "importance": 0.0118
+    },
+    {
+      "feature": "aqi_lag_1",
+      "label": "Previous Day AQI (t-1)",
+      "importance": 0.0096
+    },
+    {
+      "feature": "aqi_lag_3",
+      "label": "AQI 3 Days Ago (t-3)",
+      "importance": 0.006
+    },
+    {
+      "feature": "aqi_lag_2",
+      "label": "AQI 2 Days Ago (t-2)",
+      "importance": 0.0058
+    },
+    {
+      "feature": "humidity",
+      "label": "Relative Humidity (%)",
+      "importance": 0.0054
+    },
+    {
+      "feature": "so2",
+      "label": "SO2 Concentration",
+      "importance": 0.0047
+    },
+    {
+      "feature": "day_of_week",
+      "label": "Day of the Week",
+      "importance": 0.0035
+    },
+    {
+      "feature": "temperature",
+      "label": "Ambient Temperature (\u00b0C)",
+      "importance": 0.0033
+    },
+    {
+      "feature": "wind_speed",
+      "label": "Wind Speed (km/h)",
+      "importance": 0.0027
+    },
+    {
+      "feature": "month",
+      "label": "Calendar Month",
+      "importance": 0.0007
+    },
+    {
+      "feature": "co",
+      "label": "CO Concentration",
+      "importance": 0.0001
+    },
+    {
+      "feature": "season",
+      "label": "Seasonal Climate Index",
+      "importance": 0.0001
+    },
+    {
+      "feature": "o3",
+      "label": "Ozone (O3) Concentration",
+      "importance": 0.0
+    }
+  ],
+  "sample_size": 2124,
+  "test_sample_size": 432,
+  "actual_vs_predicted": [
+    {
+      "date": "2026-08-25",
+      "actual": 88.4,
+      "predicted": 87.3,
+      "residual": 1.1
+    },
+    {
+      "date": "2026-08-26",
+      "actual": 86.5,
+      "predicted": 86.5,
+      "residual": 0.0
+    },
+    {
+      "date": "2026-08-27",
+      "actual": 86.5,
+      "predicted": 87.3,
+      "residual": -0.8
+    },
+    {
+      "date": "2026-08-28",
+      "actual": 89.1,
+      "predicted": 86.6,
+      "residual": 2.5
+    },
+    {
+      "date": "2026-08-29",
+      "actual": 81.0,
+      "predicted": 85.0,
+      "residual": -4.0
+    },
+    {
+      "date": "2026-08-30",
+      "actual": 86.9,
+      "predicted": 85.4,
+      "residual": 1.5
+    },
+    {
+      "date": "2026-08-31",
+      "actual": 107.1,
+      "predicted": 87.5,
+      "residual": 19.6
+    },
+    {
+      "date": "2026-09-01",
+      "actual": 101.9,
+      "predicted": 91.6,
+      "residual": 10.3
+    },
+    {
+      "date": "2026-09-02",
+      "actual": 105.1,
+      "predicted": 91.4,
+      "residual": 13.7
+    },
+    {
+      "date": "2026-09-03",
+      "actual": 105.8,
+      "predicted": 93.4,
+      "residual": 12.4
+    },
+    {
+      "date": "2026-09-04",
+      "actual": 107.1,
+      "predicted": 97.8,
+      "residual": 9.3
+    },
+    {
+      "date": "2026-09-05",
+      "actual": 99.6,
+      "predicted": 98.0,
+      "residual": 1.6
+    },
+    {
+      "date": "2026-09-06",
+      "actual": 105.0,
+      "predicted": 95.5,
+      "residual": 9.5
+    },
+    {
+      "date": "2026-09-07",
+      "actual": 102.8,
+      "predicted": 98.8,
+      "residual": 4.0
+    },
+    {
+      "date": "2026-09-08",
+      "actual": 105.6,
+      "predicted": 98.8,
+      "residual": 6.8
+    },
+    {
+      "date": "2026-09-09",
+      "actual": 107.2,
+      "predicted": 99.3,
+      "residual": 7.9
+    },
+    {
+      "date": "2026-09-10",
+      "actual": 105.0,
+      "predicted": 99.8,
+      "residual": 5.2
+    },
+    {
+      "date": "2026-09-11",
+      "actual": 108.3,
+      "predicted": 100.4,
+      "residual": 7.9
+    },
+    {
+      "date": "2026-09-12",
+      "actual": 99.8,
+      "predicted": 97.9,
+      "residual": 1.9
+    },
+    {
+      "date": "2026-09-13",
+      "actual": 109.5,
+      "predicted": 95.5,
+      "residual": 14.0
+    },
+    {
+      "date": "2026-09-14",
+      "actual": 104.1,
+      "predicted": 100.4,
+      "residual": 3.7
+    },
+    {
+      "date": "2026-09-15",
+      "actual": 107.2,
+      "predicted": 98.8,
+      "residual": 8.4
+    },
+    {
+      "date": "2026-09-16",
+      "actual": 107.8,
+      "predicted": 99.7,
+      "residual": 8.1
+    },
+    {
+      "date": "2026-09-17",
+      "actual": 105.6,
+      "predicted": 102.9,
+      "residual": 2.7
+    },
+    {
+      "date": "2026-09-18",
+      "actual": 103.4,
+      "predicted": 98.0,
+      "residual": 5.4
+    },
+    {
+      "date": "2026-09-19",
+      "actual": 98.3,
+      "predicted": 96.4,
+      "residual": 1.9
+    },
+    {
+      "date": "2026-09-20",
+      "actual": 107.2,
+      "predicted": 96.0,
+      "residual": 11.2
+    },
+    {
+      "date": "2026-09-21",
+      "actual": 106.5,
+      "predicted": 99.9,
+      "residual": 6.6
+    },
+    {
+      "date": "2026-09-22",
+      "actual": 136.7,
+      "predicted": 99.7,
+      "residual": 37.0
+    },
+    {
+      "date": "2026-09-23",
+      "actual": 122.3,
+      "predicted": 108.6,
+      "residual": 13.7
+    },
+    {
+      "date": "2026-09-24",
+      "actual": 121.9,
+      "predicted": 110.2,
+      "residual": 11.7
+    },
+    {
+      "date": "2026-09-25",
+      "actual": 122.5,
+      "predicted": 111.4,
+      "residual": 11.1
+    },
+    {
+      "date": "2026-09-26",
+      "actual": 114.9,
+      "predicted": 112.8,
+      "residual": 2.1
+    },
+    {
+      "date": "2026-09-27",
+      "actual": 122.4,
+      "predicted": 111.6,
+      "residual": 10.8
+    },
+    {
+      "date": "2026-09-28",
+      "actual": 121.6,
+      "predicted": 116.4,
+      "residual": 5.2
+    },
+    {
+      "date": "2026-09-29",
+      "actual": 117.4,
+      "predicted": 117.1,
+      "residual": 0.3
+    }
+  ],
+  "description": "The primary model is a Random Forest Regressor trained on lagged air-quality indicators (t-1, t-2, t-3), multi-day rolling means, station pollutant concentrations, and seasonal calendar markers. The test split uses a strict chronological holdout to prevent lookahead bias."
+}
