@@ -114,52 +114,6 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs">
-      {/* Top Status Bar: Requirement 4 */}
-      <div className="bg-slate-900 text-slate-200 text-xs px-4 sm:px-6 py-1.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-        <div className="flex items-center gap-2">
-          {isDemoMode ? (
-            <div className="inline-flex items-center gap-1.5 text-xs text-amber-300 font-medium">
-              <span className="w-2 h-2 rounded-full bg-amber-400 ring-2 ring-amber-400/20 animate-pulse" />
-              <span>
-                <strong>Demo Mode</strong> — Live CPCB data currently unavailable
-              </span>
-              <span className="text-slate-400 text-[11px] hidden md:inline">
-                • Using verified realistic Pune baseline data
-              </span>
-            </div>
-          ) : (
-            <div className="inline-flex items-center gap-1.5 text-xs text-emerald-300 font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-emerald-400/20" />
-              <span>
-                <strong>Live Data</strong> — CPCB / MPCB Connected
-              </span>
-            </div>
-          )}
-        </div>
-
-        <div className="flex items-center gap-4 text-slate-400 text-xs">
-          <span className="hidden sm:inline">
-            Source: <strong className="text-slate-300">CPCB / MPCB / data.gov.in</strong>
-          </span>
-          {lastUpdated && (
-            <span>
-              Last Updated: <strong className="text-slate-300">{lastUpdated}</strong>
-            </span>
-          )}
-          {onRefresh && (
-            <button
-              onClick={onRefresh}
-              disabled={isRefreshing}
-              className="inline-flex items-center gap-1 text-slate-300 hover:text-white transition-colors cursor-pointer disabled:opacity-50"
-              title="Refresh telemetry readings"
-            >
-              <RefreshCw className={`w-3.5 h-3.5 ${isRefreshing ? 'animate-spin' : ''}`} />
-              <span className="font-medium">Refresh</span>
-            </button>
-          )}
-        </div>
-      </div>
-
       {/* Main Navigation Bar */}
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
